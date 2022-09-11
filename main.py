@@ -30,7 +30,7 @@ elif kategoria == kategoria_valasztas[1]: szofaj = "Állat"
 
 def kezdes():
     global szo, jelenlegi_tippek, keresett_betuk, megtalalt_betuk, rossz_betuk, eredmeny_betuk #Globális változók
-    szo = kategoria[3]
+    szo = random.choice(kategoria)
     jelenlegi_tippek = 0
     keresett_betuk = []
     rossz_betuk = []
@@ -245,5 +245,10 @@ def vege(vesztettel):
         print("Gratulálok! :)")
         print(f"Rossz tippjeid: {jelenlegi_tippek}")
         print(f"Megfejtetted a(z) {szo} feladványt.")
+    ujra = input("Szeretnél újra játszani? igen/nem: ").lower()
+    if ujra == 'igen':
+        kezdes()
+    else:
+        quit()
 
 if __name__ == '__main__': kezdes()
