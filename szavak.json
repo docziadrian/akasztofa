@@ -1,0 +1,17 @@
+{
+    "targyak":["fényképező", "nyomtató", "ruhásszekrény", "távcső", "monitor"],
+    "allatok":["kutya", "macska", "papagáj", "mosómedve"],
+    "segitsegek_a_targyakhoz": {
+        "0": "Ez a tárgy egy optikai lencsékből és fényvédett részből álló szerkezet.",
+        "1": "Digitális adatok szolgáltatására fejlesztették.",
+        "2": "Különböző textíl anyagokat tartanak benne.",
+        "3": "Távoli tárgyak megfigyelésére szolgál.",
+        "4": "CRT is létezik belőle."
+    },
+    "segitsegek_az_allatokhoz": {
+        "0": "Erősen hasonlít a farkasra.",
+        "1": "Felidae családhoz tartozik.",
+        "2": "Legintelligensebb: fél perc alatt szétszed egy ördöglakatot.",
+        "3": "Ez az állat gyűrűs farkú és jellegzetes banditamaszkot viselő mindenevő, amely remekül alkalmazkodott az emberek közelségéhez. Eredetileg Amerika lakója, de elvadult példányai Európa területén is életképes populációkat hoztak létre. Amerika egyes részein veszélyeztetett, mert gyakran ütik el a figyelmetlen autósok."
+    }
+}
